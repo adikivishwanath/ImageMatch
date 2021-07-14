@@ -1,0 +1,24 @@
+.main-outer-container {
+  border: 2px solid black;
+  margin: 0px auto;
+  width: 75%;
+  text-align: center;
+}
+
+.inside-container {
+  border: 2px solid green;
+  padding: 3px;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.inside-container img {
+  margin: 5px;
+  box-shadow: 10px 10px 5px -3px rgba(6, 6, 6, 1);
+}
+
+.inside-container img:hover {
+  box-shadow: -3px 3px 16px 17px rgba(22, 96, 45, 1);
+}
